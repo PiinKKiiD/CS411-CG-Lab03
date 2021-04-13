@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(52,48): error C2381: 'exit': redefinition; 'noreturn' differs
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\glut.h(146): message : see declaration of 'exit'
