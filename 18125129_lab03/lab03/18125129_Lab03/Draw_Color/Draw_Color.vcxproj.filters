@@ -48,7 +48,7 @@
     <ClInclude Include="..\..\Tugiac.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Point.h">
+    <ClInclude Include="..\..\Point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,7 +62,7 @@
     <ClCompile Include="..\..\Shape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Point.cpp">
+    <ClCompile Include="..\..\Point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

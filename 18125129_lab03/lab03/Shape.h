@@ -1,6 +1,9 @@
+#include "Point.h"
+#include "glut.h"
 #ifndef SHAPE_H_
 #define SHAPE_H_
-#include "Point.h"
+
+
 class Shape {
 private:
 	int button; int state;
