@@ -1,3 +1,6 @@
 ﻿  main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(52,48): error C2381: 'exit': redefinition; 'noreturn' differs
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\glut.h(146): message : see declaration of 'exit'
+  Painter.cpp
+  Shape.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "private: __thiscall Painter::Painter(void)" (??0Painter@@AAE@XZ) referenced in function "void __cdecl `dynamic initializer for 'private: static class Painter Painter::s_instance''(void)" (??__E?s_instance@Painter@@0V1@A@@YAXXZ)
+D:\TH-hể\CS411-CG-Lab03\18125129_lab03\Debug\lab03.exe : fatal error LNK1120: 1 unresolved externals

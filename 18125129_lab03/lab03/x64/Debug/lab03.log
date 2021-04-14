@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(127,1): warning C4005: 'CALLBACK': macro redefinition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\glut.h(33): message : see previous definition of 'CALLBACK'
+  Painter.cpp
+  Shape.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutDestroyWindow referenced in function "void __cdecl menu(int)" (?menu@@YAXH@Z)
+main.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl menu(int)" (?menu@@YAXH@Z)
+main.obj : error LNK2019: unresolved external symbol glutCreateMenu referenced in function "void __cdecl createMenu(void)" (?createMenu@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutAddMenuEntry referenced in function "void __cdecl createMenu(void)" (?createMenu@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutAddSubMenu referenced in function "void __cdecl createMenu(void)" (?createMenu@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutAttachMenu referenced in function "void __cdecl createMenu(void)" (?createMenu@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutWireSphere referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutWireCone referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutWireTorus referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutSolidTeapot referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol "private: __cdecl Painter::Painter(void)" (??0Painter@@AEAA@XZ) referenced in function "void __cdecl `dynamic initializer for 'private: static class Painter Painter::s_instance''(void)" (??__E?s_instance@Painter@@0V1@A@@YAXXZ)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\TH-hể\CS411-CG-Lab03\18125129_lab03\x64\Debug\lab03.exe : fatal error LNK1120: 18 unresolved externals

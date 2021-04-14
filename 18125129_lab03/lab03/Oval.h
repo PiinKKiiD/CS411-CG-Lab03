@@ -2,7 +2,7 @@
 #ifndef OVAL_H_
 #define OVAL_H_
 class Oval :public Shape {
-
+	
 };
 
 
