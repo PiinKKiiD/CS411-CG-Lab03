@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chonhinh.h" />
+    <ClInclude Include="Dagiacdeu.h" />
+    <ClInclude Include="Dau.h" />
+    <ClInclude Include="Hinhkhac.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Oval.h" />
+    <ClInclude Include="Painter.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Tamgiac.h" />
+    <ClInclude Include="Tomau.h" />
+    <ClInclude Include="Tugiac.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Oval.cpp" />
+    <ClCompile Include="Painter.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Shape.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,24 +161,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Painter.cpp" />
-    <ClCompile Include="Shape.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Chonhinh.h" />
-    <ClInclude Include="Dagiacdeu.h" />
-    <ClInclude Include="Dau.h" />
-    <ClInclude Include="Hinhkhac.h" />
-    <ClInclude Include="Line.h" />
-    <ClInclude Include="Oval.h" />
-    <ClInclude Include="Painter.h" />
-    <ClInclude Include="Shape.h" />
-    <ClInclude Include="Tamgiac.h" />
-    <ClInclude Include="Tomau.h" />
-    <ClInclude Include="Tugiac.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

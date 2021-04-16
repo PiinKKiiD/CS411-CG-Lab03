@@ -1,3 +1,8 @@
-﻿  main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(52,48): error C2381: 'exit': redefinition; 'noreturn' differs
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\glut.h(146): message : see declaration of 'exit'
+﻿  Line.cpp
+  Oval.cpp
+  Painter.cpp
+  Shape.cpp
+  main.cpp
+D:\D_Documents\[D]_Doc\KHTN\Junior\[CS411]Computer_Graphics\Lab\A03\CS411-CG-Lab03\18125129_lab03\lab03\main.cpp(96,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  lab03.vcxproj -> D:\D_Documents\[D]_Doc\KHTN\Junior\[CS411]Computer_Graphics\Lab\A03\CS411-CG-Lab03\18125129_lab03\Debug\lab03.exe
