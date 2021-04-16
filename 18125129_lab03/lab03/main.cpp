@@ -124,9 +124,15 @@ void mouse(int button, int state, int x, int y) {
                 break;
             }
             case id_TgVuongCan: {
+                Shape* a;
+                a = new TGVuongCan(tempPointStart, tempPointEnd);
+                myPainter->addShape(a);
                 break;
             }
             case id_TgDeu: {
+                Shape* a;
+                a = new TGDeu(tempPointStart, tempPointEnd);
+                myPainter->addShape(a);
                 break;
             }
             case id_HinhChuNhat: {

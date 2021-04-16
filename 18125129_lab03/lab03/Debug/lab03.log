@@ -1,8 +1,2 @@
-﻿  Line.cpp
-  Oval.cpp
-  Painter.cpp
-  Shape.cpp
-  main.cpp
-D:\D_Documents\[D]_Doc\KHTN\Junior\[CS411]Computer_Graphics\Lab\A03\CS411-CG-Lab03\18125129_lab03\lab03\main.cpp(96,23): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
+﻿  Tamgiac.cpp
   lab03.vcxproj -> D:\D_Documents\[D]_Doc\KHTN\Junior\[CS411]Computer_Graphics\Lab\A03\CS411-CG-Lab03\18125129_lab03\Debug\lab03.exe
